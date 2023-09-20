@@ -25,6 +25,15 @@ body {
     color: whitesmoke
 }
 
+footer h1 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
 h1 {
     font-size: 3.5rem;
     font-weight: normal;
@@ -86,6 +95,10 @@ canvas {
     animation-iteration-count: infinite;  /* Never stop waving :) */
     transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
     display: inline-block;
+  }
+
+  .wave img{
+    width:auto
   }
   
   @keyframes wave-animation {
